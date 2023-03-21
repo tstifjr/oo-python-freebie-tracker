@@ -1,0 +1,2 @@
+class Freebie:
+    pass

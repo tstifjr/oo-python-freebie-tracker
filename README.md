@@ -50,19 +50,21 @@ comments describing your progress.
 
 ## Deliverables
 
-Write the following methods in the classes in the files provided. Feel free to
+Write the following functionality in the classes in the files provided. Feel free to
 build out any helper methods if needed.
+
+- A `Company` has a name that's a string & founding year that is an integer.
+
+- A `Dev` has a name that's a string.
 
 - A `Freebie` belongs to a `Dev`, and a `Freebie` also belongs to a `Company`.
  
-- The `freebies` table should also have:
+- The `freebies` model should also have:
   - An `item_name` column that stores a string.
   - A `value` column that stores an integer.
 
-After creating the `freebies` table using a migration, use the `seed.py` file to
-create instances of your `Freebie` class so you can test your code.
 
-**After you've set up your `freebies` table**, work on building out the following
+**After you've set up your `freebies`**, work on building out the following
 deliverables.
 
 
@@ -83,10 +85,7 @@ deliverables.
 - `Dev.companies`returns a collection of all the companies that the Dev has collected
   freebies from.
 
-Use `python debug.py` and check that these methods work before proceeding. For
-example, you should be able to retrieve a dev from the database by its
-attributes and view their companies with `dev.companies` (based on your seed
-data).
+Use `python debug.py` and check that these methods work before proceeding. 
 
 ### Aggregate Methods
 
